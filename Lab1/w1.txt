@@ -1,0 +1,16 @@
+Script started on Fri 11 May 2018 06:24:51 PM EDT
+]0;ihalemi@mtrx-node03pd:~/oop345/lab1[?1034h[ihalemi@mtrx-node03pd lab1]$ whoami
+ihalemi
+]0;ihalemi@mtrx-node03pd:~/oop345/lab1[ihalemi@mtrx-node03pd lab1]$ whoami[2Pexitw1 oop345 btp305g++ -o w1 w1.cpp CString.cpp Process.cpp
+]0;ihalemi@mtrx-node03pd:~/oop345/lab1[ihalemi@mtrx-node03pd lab1]$ g++ -o w1 w1.cpp CString.cpp Process.cpp[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cwhoami[K[2Pexitw1 oop345 btp305
+Command Line : w1 oop345 btp305 
+Maximum number of characters stored : 3
+0: oop
+1: btp
+]0;ihalemi@mtrx-node03pd:~/oop345/lab1[ihalemi@mtrx-node03pd lab1]$ w1
+Command Line : w1 
+Insufficient number of arguments (min 1)
+]0;ihalemi@mtrx-node03pd:~/oop345/lab1[ihalemi@mtrx-node03pd lab1]$ exit
+exit
+
+Script done on Fri 11 May 2018 06:25:04 PM EDT
