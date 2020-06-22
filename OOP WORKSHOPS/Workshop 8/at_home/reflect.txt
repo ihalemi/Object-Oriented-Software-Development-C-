@@ -1,0 +1,14 @@
+Ilias Halemi
+062 111 133
+
+Workshop 8 Reflection
+
+1. An abstract base class defines an interface through pure virtual functions that are not implemented while an concrete base class is the derived class which will implement these virtual functiosn in a module. 
+
+2. Both the credit() and debit() functions from the ChequingAccount class shadows the coresponding debit and credit functions of the Account class. Moreoever, the display() function from the ChequingAccount class shadows the display fnction of the SavingsAccount.
+
+3. This workshop I have learned how to reduce code through the use of inheritance and the use of polymorphism especially the use of abstract classes and concrete classes. 
+
+Quiz 8 Reflection
+
+I missed this quiz. 

@@ -1,0 +1,15 @@
+Name: Ilias Halemi
+Student Number: 062 111 133
+Email: ihalemi@myseneca.ca
+
+REFLECTION 
+
+1. A namespace is a scope that we can use to enclose a section of our code and outside of this namespace we can use the namespace identifier to summon parts of our code with ::. Namespaces can be useful to avoid identifier conflicts amongst multiple section of code or when multiple developers are working on one project by enclosing each section of code within it's own scope.
+
+2. Header files are used to declare our function prototypes and define our class. The header file then needs to be included in the implementation file which contains our function definitions. The reason we need to include our header files in the .cpp file is that it increases compile time especially for big programs. Furthermore, header files help us to seperate 'interface' from 'implementation'.
+
+3. Compiling a .h file nonsensical because headers don't really have any functioning code in them, just the delcrations for our functions, variables etc. We should only include our headers in the .cpp file and compile only the .cpp file which has our actual code in it.
+
+4. A cpp file in programming is refered to as a translation unit which contains our implementations of the prototypes declared in a header file. However, you could include cpp files since this only tells the pre-proccessor to copy the .cpp file into the active file but with big c++ projects including .cpp files will increase compiling time tenfold thus it is not recommended to do this.
+
+5. This workshop I learned to include header guards #ifndef and #endif to my header files. The purpose of header guards is to prevent including header files multiple times. 

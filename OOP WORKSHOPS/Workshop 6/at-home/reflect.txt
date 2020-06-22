@@ -1,0 +1,13 @@
+Ilias Halemi
+062 111 133
+
+Workshop 6 Reflection
+
+1. It is important for the copy operator to check for self-assigment by comparing the address of the current object to the source object because the deallocation logic would release release the memory holding our resource data. And as a result our statement where copy data to the newly allocated array would fail. 
+2. In term of code duplication, I used the default constructor in the constructor with 3 parameters to set the object to an empty state if data was invalid like so *this = Contact(). Furthermore, I used the isEmpty() function in my display function to see if the object is in an empty state or not. Lastly, I used the copy assigment operator in my copy constructors to reuse the code already written like so *this = src.
+3. This workshop I have learned how to create copy constructors and copy assigment constructors and the logic behind these. Furthermore, I learned the importance of checking for self-assigment in the copy assigment operator =. 
+
+Quiz 6 Reflection
+1. Inheritance refers to when one class inherits the entire structure of another class. Usually the base is the parent class and at the top of hierarchy and the derived class which is the child class inherits the structure of the base class. 
+2. A good example would be a parent class called Person which has all of the function of person (talk, sleep, eat) and then introduce a Student class which will inherit the structure of a Person plus some additional attributes like what they study in school etc. 
+3. The keyword protected can be used on any attribute in a base class and it means that only derived class members can access the protected attribute but the client can't. Moreover, it is suggested to only give member function protected access not data members as it may pose security risks.  

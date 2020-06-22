@@ -1,0 +1,32 @@
+Ilias Halemi
+062 111 133
+01/31/2018
+
+REFLECTION
+
+1. We need to allocate new dynamic memory when trying to increase the size of our existing 'pKingdom' array because unlike static arrays that have a constant size, the size of a dynamic array is a run-time variable therefore we must allocate new dynamic memory and copy the contents of our original array to the new array.  
+
+2. The character array in the Kingdom structure is a static array therefore we don't need to deallocate this memory explicitly with the 'delete' keyword since static memory becomes available automatically for other variables when the lifetime of the array ends by going out of scope.
+
+3. The C++ compiler determines which definition to call by matching the argument types in the function call inside main to the parameter types in your function prototype/definition.
+
+4. This workshop I have learned how to allocate dynamic memory and how deallocate this memory. Moreover, I learned that you must allocate new dynamic memory when increasing dynamic array sizes. 
+
+
+Quiz 2 Reflection
+
+// for header guards the #ifndef comes first, followed by the #define
+#ifndef QUIZ2_UTILITIES_H
+#define QUIZ2_UTILITIES_H
+
+// 'a floating-point number in single-precsion' is a float
+// can omit the identifier since it is a prototype
+void printParam(float);
+
+// paramters with default values cannot be followed by a parameter with no default value, therefore we make our default the second parameter here
+// we choose a double for our first parameter here because it is a reference using & 
+void printParam(double&, int = 10);
+
+Quiz 1 Reflection
+
+2. The three types of class functions are queries, mutators, and special functions.

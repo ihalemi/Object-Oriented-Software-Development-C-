@@ -1,0 +1,13 @@
+Name: Ilias Halemi
+Email: ihalemi@myseneca.ca
+Date: 02/06/2018
+
+REFLECTION - WORKSHOP 3
+1. There are a total of 41 elements in each C-style character string this is because we must add an extra element to account for the null byte '\0'. The null byte tells your compiler when the string ends. For example an array with a size of 40 containing the string "Hello World\0" will only take up positions 0 to 11 and positions 12 to 39 will have random memory.
+
+2. The feature in C++ that allows us to do this is called "Function Overloading" which allows you to have two functions with the same identifier but your parameters must be different so that the compiler can distinguish between each function when called. Therefore, in the workshop the compiler can tell apart the set function with 3 parameters and the set function with 2 parameters.
+
+3. In this workshop I learned that we can modify private attributes through a separate member function like the set() function. Furthermore, I learned that unlike C programming the class members are private by default and you must specify the public keyword in order to access these members. 
+
+Quiz 3 Reflection
+I got perfect on this quiz. 

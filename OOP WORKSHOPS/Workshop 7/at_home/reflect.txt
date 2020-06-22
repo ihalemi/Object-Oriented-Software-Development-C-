@@ -1,0 +1,46 @@
+Ilias Halemi
+062 111 133
+
+Workshop 7 Reflection 
+
+1.	No, the Hero class does not need to know of the SuperHero class since the Hero class is the base class. The Hero class is independent of the SuperHero class and can stand on its own while SuperHero class inherits the structure of the Hero class therefore it is dependent on the existence of the Hero class. 
+2.	Yes, the SuperHero class needs to know about the Hero class in order to inherit its structure along with its data members and functions to function properly. A SuperHero is a “kind of” a Hero therefore it need cannot be independent without the Hero class.
+3.	The program printed “Ancient Battle!” when we tried to make a Hero fight a SuperHero since the program uses the * operator from the Hero class here. 
+4.	Both of these definitions are valid using the * operator, one making two heroes fight one another and the other making two heroes fight two other heroes. However, the winner of each battle is not saved into a variable to be used in later fights.  
+
+
+Quiz 7 Reflection
+
+#ifndef QUIZZES_EMPIRE_H
+
+#define QUIZZES_EMPIRE_H
+
+namespace quizzes {
+
+class Empire {
+
+char name[30];
+
+char* capital;
+
+long long population;
+
+public:
+
+Empire():
+
+Empire (const Empire&);
+
+Empire& operator=(const Empire&);
+
+~Empire();
+
+operator int() const;
+
+operator bool() const;
+
+}; // end of class ** forgot ; here
+
+} // end of namespace
+
+#endif

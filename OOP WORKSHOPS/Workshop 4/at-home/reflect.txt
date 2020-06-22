@@ -1,0 +1,20 @@
+Name: Ilias Halemi
+Student ID: 062 111 133
+
+WORKSHOP 4 REFLECTION
+
+1.	An empty state is when we initialize our data members to default values (0, \0) at creation-time which identify the object as empty, and from this safe stable state we can set new values to our data. This is important to avoid undefined behavior or broken objects by initializing each object to a safe empty state at creation-time. Another state that can be identified as a safe empty state is nullptr for pointers.
+
+2.	I have minimized code duplication by reusing existing functions instead of duplicating code. For example, I use the Passenger constructor to set the object to an empty state when data is invalid inside my Passenger constructor with parameters and I also used the isEmpty function to check if the object is in an empty state in the Name function.
+
+3.	The private data can be accessed since we passed the Passenger objects itself as a reference and within this function we call a new Passenger object A with which we can compare the data in the original Passenger object.
+
+4.	We need to include the <cstring> library in order to make sure that strncpy() works correctly.
+
+5.	 This workshop I learned about the importance of constructors and using them to validate incoming data. Furthermore, I learned that constructors can be overloaded but destructors can’t be overloaded since their main tasks is to get rid of all the junk at the end of the object’s scope.
+
+
+QUIZ 4 REFLECTION
+1.	We can overload the + operator to add grades to students in the Student class. 
+2.	The three categories of operators are unary (++), binary (+) and ternary (condition: code ? code;).
+3.	The role of the destructor is to get rid of all the junk and free up all the space used up by the class at the end of its scope/lifetime.
